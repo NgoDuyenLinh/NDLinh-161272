@@ -1,3 +1,5 @@
+# NDLinh-161272
+A personal website combining portfolio and blog, built to showcase skills and share insights.
 Chào bạn! Đây là một dự án được xây dựng với tất cả đam mê về **thiết kế giao diện Web/App UI và trải nghiệm người dùng UX**, **phân tích dữ liệu**, và **chia sẻ kiến thức**.
 
 Website này là không gian cá nhân nơi mình:
@@ -40,4 +42,4 @@ Bên cạnh những chủ đề nghiêm túc, mình cũng muốn chia sẻ đôi
 
 > “Code là công cụ, nhưng cảm hứng mới là điều tạo nên trải nghiệm.” – Tác giả
 
-Cảm ơn bạn đã ghé thăm!
+Ngôi nhà của tôi luôn chào đón bạn!
