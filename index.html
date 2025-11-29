@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Linh's Portfolio</title>
+<meta name="description" content="Trang portfolio cá nhân của Linh - UI/UX Designer & Web Developer. Chia sẻ dự án, blog và cách liên hệ.">
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <!-- Google Fonts & AOS CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+  <img src="PersonalLogo.png" alt="Logo của Linh" class="logo" />
+   <nav>
+      <a href="#about">Giới thiệu</a>
+      <a href="#projects">Dự án</a>
+      <a href="#blog"> Blog</a> 
+      <a href="#contact">Liên hệ</a>
+    </nav>
+    <button class="toggle-mode">🌓</button>
+  </header>
+  <section class="hero">   
+    <h1> Chào bạn <span class="wave">👋</span>  </h1>
+    <h2 class="slogan">
+    <strong><span id="typing-slogan"></span></strong> 
+    </span>
+    </h2>
+   
+   </section>
+  <section class="profile">
+     <div class="profile-info" data-aos="fade-left">
+        <h2>Mình là Linh</h2>
+        <p>✨ Một người đam mê thiết kế và yêu thích lập trình web.</p>
+        <p>🎯 Mục tiêu: Trở thành một designer hiện đại, có tư duy code sáng tạo.</p>
+        <p><strong>Sở thích của mình:</strong></p>
+        <ul class="hobbies" id="hobbies">
+          <li data-aos="flip-left">Thiết kế UI/UX 💻</li>
+          <li data-aos="flip-left">Lập trình Web 🌐</li>
+          <li data-aos="flip-left">Viết blog ✏️ và Nấu ăn 🍳</li>
+        </ul>
+      </div>
+    </section>
+
+
+  <section class="projects" id="projects">
+    <h2>Dự án nổi bật</h2>
+    <div class="project-grid">
+      <div class="card">
+        <img src="project1.jpg" alt="Project 1" />
+        <h3>🌐 Portfolio cá nhân</h3>
+        <p>Giới thiệu kỹ năng và cá tính với hiệu ứng mượt mà, chế độ tối/sáng.</p>
+      </div>
+      <div class="card">
+        <img src="project2.jpg" alt="Project 2" />
+        <h3>✍️ Blog về UI/UX</h3>
+        <p>Chia sẻ kinh nghiệm thiết kế giao diện và nghiên cứu người dùng.</p>
+      </div>
+      <div class="card">
+        <img src="project3.jpg" alt="Project 3" />
+        <h3>🛍️ Landing Page sản phẩm</h3>
+        <p>Thiết kế hiện đại, tập trung vào chuyển đổi.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <p>📧 linh@example.com</p>
+    <p>🔗 <a href="https://linkedin.com/in/linhdev" target="_blank">LinkedIn</a> | <a href="https://github.com/linhdev">GitHub</a></p>
+    <p>&copy; 2025 Linh Portfolio</p>
+  </footer>
+</body>
+</html>
